@@ -1,3 +1,64 @@
-body{
-    background-color: brown;
+/* GENERAL */
+
+Html,body{
+    font-family: 'Raleway', sans-serif;
 }
+
+.flexaround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexbetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HEADER */
+
+.sizeheader{
+    height: 100px;
+}
+.logo{
+    width: 120px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.sizelinks{
+    width: 45%;
+}
+
+.deconone{
+    text-decoration: none;
+}
+
+.sizelink{
+    width: 140px ;
+    height: 99px;
+}
+
+.colorlink13{
+    color: #0065fc;
+}
+
+.colorlink2{
+    color: black;   
+}
+
+.bordernav1{
+    border-top: 1px solid #0065fc;
+}
+
+.bordernav23{
+    border-top: 1px solid transparent;
+}
+
+/* MAIN */
