@@ -7,25 +7,22 @@
     <title>Reservia</title>
     <link rel="stylesheet" type ="text/css" href="style.css">
     <script src="https://kit.fontawesome.com/3d4c2f4d7f.js" crossorigin="anonymous"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-    </style>
 </head>
 <body>
-    <header class="sizeheader">
+    <header>
         <nav class="flexbetween">
             <div>
                 <img class="logo" src="img/reservia_logo.svg" alt="reservia logo">
             </div>
-            <div class="flexaround sizelinks">
-                <div class="sizelink flexcenter bordernav1">
-                    <a class="colorlink13 deconone" href="#hebégement">Hébergements</a>
+            <div class="sizelinks flexaround">
+                <div class="sizelink flexcenter bordernav">
+                    <a class="colorlink" href="#hebégement">Hébergements</a>
                 </div>
-                <div  class="sizelink flexcenter bordernav23">
-                    <a class="colorlink2 deconone" href="#activité">Activités</a>
+                <div  class="sizelink flexcenter bordernav">
+                    <a class="colorlink" href="#activité">Activités</a>
                 </div>
-                <div class="sizelink flexcenter bordernav23">
-                    <a class="colorlink13 deconone bold"  href="#">S'inscrire</a>
+                <div class="sizelink flexcenter bordernav">
+                    <a class="colorlink3"  href="#">S'inscrire</a>
                 </div>
             </div>
         </nav>
@@ -40,49 +37,53 @@
                 <i class="fas fa-map-marker-alt"></i>
             </div>
             <div>
-                <input  class="search flexcenter bold" type="search" value="Marseille, France">
+                <input  class="search flexcenter" type="search" value="Marseille, France">
             </div>
             <div>
-                <button class="button flexcenter bold" type="button">
+                <button class="button flexcenter" type="button">
                 Rechercher
                 </button>
             </div>
         </form>
-        <div class="filtersection margfilter">
+        <section class="filtersection margfilter">
             <div class="filtertitle">
                <h3>Filtres</h3>
             </div>
-            <div class="filters flexbetween">
-                <i class="fas fa-money-bill-wave fa-lg filtericon"></i>
-                <div class="filtertext"> Économique</div>
+            <div class="filters">
+                    <i class="fas fa-money-bill-wave fa-lg"></i>
+                    <p> Économique</p>             
             </div>
-            <div class="filters flexbetween">
-                <i class="fas fa-child fa-lg filtericon"></i>
-                <div class="filtertext">Familial</div>
+            <div class="filters ">
+                <i class="fas fa-child fa-lg"></i>
+                <p>Familial</p>
             </div>
-            <div class="filters flexbetween">
-                <i class="fas fa-heart fa-lg filtericon"></i>
-                <div class="filtertext">Romantique</div>
+            <div class="filters">
+                <i class="fas fa-heart fa-lg"></i>
+                <p>Romantique</p>
             </div>
-            <div  class="filters flexbetween">
-                <i class="fas fa-dog fa-lg filtericon"></i>
-                <div class="filtertext">Animaux autorisés</div>
+            <div  class="filters">
+                <i class="fas fa-dog fa-lg"></i>
+                <p>Animaux autorisés</p>
             </div>
-        </div>
+        </section>
         <section>
             <div class="info">
-                <i class="fas fa-info fa-md infoicon"></i>  
-                <p class="infotext">Plus de 500 logements sont disponible dans cette ville.</p>
+                <i class="fas fa-info fa-md"></i>  
+                <p>Plus de 500 logements sont disponible dans cette ville.</p>
             </div>
         </section>
         <section class="flexaround">
             <div>
-                <h3>Hébergements à Marseille</h3>
+                <h3 id="hébergement">Hébergements à Marseille</h3>
             </div>
             <div>
                 <h3>Les plus populaires</h3>
             </div>
-
+        </section>
+        <section>
+            <div>
+                <h3 id="activité">Activités</h3>
+            </div>             
         </section>
     </main>
     <footer>
