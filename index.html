@@ -12,68 +12,98 @@
     </style>
 </head>
 <body>
-    <hearder class="sizeheader">
+    <header class="sizeheader">
         <nav class="flexbetween">
             <div>
                 <img class="logo" src="img/reservia_logo.svg" alt="reservia logo">
             </div>
             <div class="flexaround sizelinks">
                 <div class="sizelink flexcenter bordernav1">
-                    <a class="colorlink13 deconone" href="#hebégement">Hébergement</a>
+                    <a class="colorlink13 deconone" href="#hebégement">Hébergements</a>
                 </div>
                 <div  class="sizelink flexcenter bordernav23">
                     <a class="colorlink2 deconone" href="#activité">Activités</a>
                 </div>
                 <div class="sizelink flexcenter bordernav23">
-                    <a class="colorlink13 deconone"  href="#">S'inscrire</a>
+                    <a class="colorlink13 deconone bold"  href="#">S'inscrire</a>
                 </div>
             </div>
         </nav>
-    </hearder>
+    </header>
+    <div class="title">
+        <h1>Trouver votre hébergement pour des vacances de rêve</h1> 
+        <p>En plein centre ville ou en pleine nature</p>           
+    </div>
     <main>
-        <section>
-            <h1>Trouver votre hébergement pour des vacances de rêve</h1> 
-            <p>En plein centre ville ou en pleine nature</p>           
-        </section>
-        <section>
-            <div>
+        <form class="form flexcenter"> 
+            <div class="mapicon flexcenter">
                 <i class="fas fa-map-marker-alt"></i>
             </div>
             <div>
-                <input type="search" placeholder="Marseille, France">
+                <input  class="search flexcenter bold" type="search" value="Marseille, France">
             </div>
             <div>
+                <button class="button flexcenter bold" type="button">
                 Rechercher
+                </button>
+            </div>
+        </form>
+        <div class="filtersection margfilter">
+            <div class="filtertitle">
+               <h3>Filtres</h3>
+            </div>
+            <div class="filters flexbetween">
+                <i class="fas fa-money-bill-wave fa-lg filtericon"></i>
+                <div class="filtertext"> Économique</div>
+            </div>
+            <div class="filters flexbetween">
+                <i class="fas fa-child fa-lg filtericon"></i>
+                <div class="filtertext">Familial</div>
+            </div>
+            <div class="filters flexbetween">
+                <i class="fas fa-heart fa-lg filtericon"></i>
+                <div class="filtertext">Romantique</div>
+            </div>
+            <div  class="filters flexbetween">
+                <i class="fas fa-dog fa-lg filtericon"></i>
+                <div class="filtertext">Animaux autorisés</div>
+            </div>
+        </div>
+        <section>
+            <div class="info">
+                <i class="fas fa-info fa-md infoicon"></i>  
+                <p class="infotext">Plus de 500 logements sont disponible dans cette ville.</p>
             </div>
         </section>
         <section class="flexaround">
-           <div>
-               <h2>Filtres</h2>
-           </div>
             <div>
-               <i class="fas fa-money-bill-wave"></i>
-               <p>Économique</p>
+                <h3>Hébergements à Marseille</h3>
             </div>
             <div>
-                <i class="fas fa-child"></i>
-                <p>Familial</p>
+                <h3>Les plus populaires</h3>
             </div>
-            <div>
-                <i class="fas fa-heart"></i>
-                <p>Romantique</p>
-            </div>
-            <div>
-                <i class="fas fa-dog"></i>
-                <p>Animaux autorisés</p>
-            </div>
-        </section>
-        <section>
-            <i class="fas fa-info"></i>    
-            <p> Plus de 500 logements sont disponible dans cette ville</p>
+
         </section>
     </main>
     <footer>
-
+        <div class="flexaround">
+            <div>
+                <h4>A propos</h4>
+                <p>Fonctionnement du site</p>
+                <p>Conditions générales de vente</p>
+                <p>Donnérs et confidantialité</p>
+            </div>
+            <div>
+                <h4>Nos hébergements</h4> 
+                <p>Charte qualité</p>
+                <p>Soumettre votre hôtel</p>
+            </div>
+            <div>
+                <h4>Assistance</h4>
+                <p>Centre d'aide</p>
+                <p>Nous contacter</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

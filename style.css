@@ -1,7 +1,10 @@
-/* GENERAL */
-
 Html,body{
     font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+.bold{
+    font-weight: bold;
 }
 
 .flexaround {
@@ -13,7 +16,7 @@ Html,body{
 .flexbetween{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;  
 }
 
 .flexcenter{
@@ -25,15 +28,17 @@ Html,body{
 /* HEADER */
 
 .sizeheader{
-    height: 100px;
+    height: 90px;
 }
 .logo{
-    width: 120px;
-    height: 50px;
-    margin-bottom: 10px;
+    width: 150px;
+    height: 65px;
+    margin-bottom: 62px;
+    margin-left: 28px;
 }
 .sizelinks{
-    width: 45%;
+    width: 35%;
+    margin-bottom: 50px;
 }
 
 .deconone{
@@ -53,6 +58,8 @@ Html,body{
     color: black;   
 }
 
+
+
 .bordernav1{
     border-top: 1px solid #0065fc;
 }
@@ -61,4 +68,132 @@ Html,body{
     border-top: 1px solid transparent;
 }
 
+.bordernav23:hover {
+    border-top: 1px solid #0065fc;
+}
+
+
+h1 {
+    font-size: 2rem;
+}
+
+.title{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
 /* MAIN */
+
+.form {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+.mapicon{
+    background-color: #f2f2f2;
+    height: 40px;
+    width: 40px;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.search {
+    height: 40px;
+    width: 200px;
+    font-size: 1,5em;
+    color: black;
+    border: 0.5px solid #f2f2f2;
+    padding-left: 20px;
+   
+}
+.button {
+    height: 40px;
+    width: 90px;
+    background-color: blue;
+    border-radius: 0 1rem 1rem 0;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/*FILTRES*/
+
+.margfilter{
+    margin: 30px;
+}
+
+.filtersection{
+    display: flex;
+    align-items: center;
+}
+
+.filtertitle{
+    margin-right: 20px;
+}
+
+.filters{
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.filtericon{
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    color: #0065fc;
+    background-color: #deebff;
+    
+}
+
+.filtertext{
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.filters:hover{
+    background-color: #0065fc;
+    color: white;
+    border-left: transparent;
+}
+
+/*INFOS*/
+
+.info{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.infoicon{
+    color: #0065fc;
+    width: 20px;
+    height: 25px;
+    border: 2px solid #f2f2f2;
+    border-radius: 50%;  
+    margin-right: 10px;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    height: 200px;
+}
+
+
+
+h4{
+    margin:0;
+}
+
+ul{
+    list-style: none;
+}
+
