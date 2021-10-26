@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-Html,body{
+body{
     font-family: 'Raleway', sans-serif;
     color: black;
     margin: 0px;
@@ -66,7 +66,13 @@ header{
     margin-bottom: 50px;
 }
 
-.sizelink{
+.sizelink12{
+    width: 140px ;
+    height: 99px;
+    margin-right: 10px;
+}
+
+.sizelink3{
     width: 140px ;
     height: 99px;
 }
@@ -90,11 +96,11 @@ header{
 }
 
 .bordernav{
-    border-top: 1px solid transparent;
+    border-top: 2px solid transparent;
 }
 
 .bordernav:hover {
-    border-top: 1px solid #0065fc;
+    border-top: 2px solid #0065fc;
     transition: 0.5s;
 }
 
@@ -236,7 +242,7 @@ h1 {
     margin: 15px;
     background-color: #f2f2f2;
     border-radius: 15px;
-    padding: 15px;
+    padding: 15px;    
 }
 
 .bloc1{
@@ -264,59 +270,10 @@ h1 {
     transform:scale(1.05);
 }
 
-.imghost1{
-    background-image: url("./img/host/marcus-loke.jpg");
+.imghost{
+    object-fit: cover;
     width: 100%;
     height: 120px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-
-}
-
-.imghost2{
-    background-image: url("./img/host/fred-kleber.jpg");
-    width: 100%;
-    height: 120px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-
-}
-
-.imghost3{
-    background-image: url("./img/host/reisetopia.jpg");
-    width: 100%;
-    height: 120px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-}
-
-.imghost4{
-    background-image: url("./img/host/annie-spratt.jpg");
-    width: 100%;
-    height: 120px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-}
-
-.imghost5{
-    background-image: url("./img/host/nicate-lee.jpg");
-    width: 100%;
-    height: 120px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-}
-  
-.imghost6{
-    background-image: url("./img/host/febrian-zakaria1.jpg");
-    width: 100%;
-    height: 120px;
-    background-size: cover;
-    background-position: center;
     border-radius: 15px;
 }
 
@@ -359,30 +316,10 @@ h1 {
     transform:scale(1.02);
 }
 
-.imgpop1{
-    background-image: url("./img/host/jemile-guillemot.jpg");
+.imgpop{
     width: 35%;
     height: 140px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-}
-
-.imgpop2{
-    background-image: url("./img/host/aw-creative.jpg");
-    width: 35%;
-    height: 140px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-}
-
-.imgpop3{
-    background-image: url("./img/host/febrian-zakaria2.jpg");
-    width: 35%;
-    height: 140px;
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
     border-radius: 15px;
 }
 
@@ -403,8 +340,6 @@ h1 {
 .titleact{
     margin-left: 15px;
 }
-
-
 
 .cardact1{
     width: 23%;
@@ -474,56 +409,42 @@ h1 {
 }
 
 .imgact1{
-    background-image: url("img/activity/reno-laithienne.jpg");
-    background-position: center;
-    background-size: cover;
+    object-fit: cover;
     height: 450px;
     width: 100%;
-    border-radius: 20px 20px 0px 0px;
-    
+    border-radius: 20px 20px 0px 0px; 
 }
 
 .imgact2{
-    background-image: url("img/activity/paul-hermann.jpg");
-    background-position: center;
-    background-size: cover;
+    object-fit: cover;
     height: 205px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
-
 }
 
 .imgact3{
-    background-image: url("img/activity/kevin-hikari.jpg");
-    background-position: center;
-    background-size: cover;
+    object-fit: cover;
     height: 180px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
 }
 
 .imgact4{
-    background-image: url("img/activity/kilyan-sockalingu.jpg");
-    background-position: center;
-    background-size: cover;
+    object-fit: cover;
     height: 450px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
 }
 
 .imgact5{
-    background-image: url("img/activity/florian-wehde.jpg");
-    background-position: center;
-    background-size: cover;
+    object-fit: cover;
     height: 210px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
 }
 
 .imgact6{
-    background-image: url("img/activity/lena-paulin.jpg");
-    background-position: center;
-    background-size: cover;
+    object-fit: cover;
     height: 170px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
@@ -532,8 +453,9 @@ h1 {
 h4{
     display: flex;
     align-items: center;
-    padding-left: 15px;
-    padding-bottom: 15px;
+    padding-left: 20px;
+    margin-top: 10px;
+
 }
 
 /* FOOTER */
@@ -555,4 +477,13 @@ footer{
     height: 150px;
 }
 
+.link{
+    margin-bottom:25px;
+}
 
+
+/* RESPONSIVE */
+
+
+
+    
